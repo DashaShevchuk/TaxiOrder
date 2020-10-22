@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="300dp"
+            android:gravity="center"
+            android:layout_marginStart="50dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="@string/taxi_order"
+            android:textColor="#DA870D"
+            android:textSize="100sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/signInDriver"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:onClick="goToDriverSignIn"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="#DA870D"
+            android:fontFamily="@font/abril_fatface"
+            android:text="@string/driver"
+            android:textColor="#090909" />
+
+        <Button
+            android:id="@+id/signInClient"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:onClick="goToClientSignIn"
+            android:layout_marginStart="70dp"
+            android:layout_marginBottom="10dp"
+            android:background="#DA870D"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Client" />
+    </LinearLayout>
+
+</FrameLayout>

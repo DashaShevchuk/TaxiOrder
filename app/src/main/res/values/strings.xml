@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TaxiOrder</string>
+    <string name="taxi_order">Taxi order</string>
+    <string name="driver">Driver</string>
+    <string name="client_sign_in">Client Sign In</string>
+    <string name="email">Email</string>
+    <string name="title_activity_driver_maps">Map</string>
+    <string name="title_activity_client_maps">Map</string>
+</resources>
